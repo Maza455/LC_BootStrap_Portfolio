@@ -7,254 +7,210 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <title>Bootstrap_Portfolio</title>
 </head>
-<body>
-    
     <body>
-        <section id="home-page">
+        <section id="home">
         <!-- Navbar -->
-        <nav
-          class="
-            navbar navbar-expand-lg navbar-light 
-            bg-warn
-            justify-content-between 
-          "
-        >
-          <div class="container-fluid n justify-content-between">
-            <a class="navbar-brand" href="#">
-              <img src="https://i.postimg.cc/qvcxXr0S/Screenshot-2023-10-30-115113.png" width="20%" alt="" />
+        <nav class="navbar navbar-expand-lg fixed-top navbarScroll">
+          <div class="container">
+            <a class="navbar-brand" href="#home">
+              <img src="https://i.postimg.cc/qvcxXr0S/Screenshot-2023-10-30-115113.png" width="10%" alt="" />
             </a>
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarNav"
-              aria-controls="navbarNav"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
-            <div
-              class="collapse navbar-collapse  justify-content-end"
-              id="navbarNav"
-            >
-              <ul class="navbar-nav">
-                <li class="nav-item">
-                  <a
-                    class="nav-link active"
-                    aria-current="page"
-                    href="#landing-page"
-                    ><p class="nav-text" style="font-family: sans-serif -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">Home</p></a
-                  >
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" aria-current="page" href="#landing-page">
+                    <p class="nav-text" style="font-family: sans-serif -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">Home</p></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#about-page"
-                    ><p class="nav-text">About</p></a
-                  >
+                  <a class="nav-link" href="#about-page">
+                    <p class="nav-text">About</p></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#timeline-page"
-                    ><p class="nav-text">Timeline</p></a
-                  >
+                  <a class="nav-link" href="#myskills-cards">
+                    <p class="nav-text">Skills&Education</p></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#portfolio-page"
-                    ><p class="nav-text">Portfolio</p></a
-                  >
+                  <a class="nav-link" href="#portfolio-page">
+                    <p class="nav-text">Portfolio</p></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#testimonials-page"
-                    ><p class="nav-text">Testimonials</p></a
-                  >
+                  <a class="nav-link" href="#testimonials-page">
+                    <p class="nav-text">Testimonials</p></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#contact"
-                    ><p class="nav-text">Contact</p></a
-                  >
+                  <a class="nav-link" href="#contact">
+                    <p class="nav-text">Contact</p></a>
                 </li>
               </ul>
             </div>
           </div>
         </nav>
+
     
-        <!-- header -->
-    
-        <!--HOME Landing Section  -->
-        <section style="object-fit: cover;  padding-bottom: 50px;" id="landing-page">
-          <div class="px-4 py-5 text-center">
-            <br><br><br><br><br>
-            <img
-              id="landing-photo"
-              class="d-block mx-auto mb-4 img-responsive"
-              src="https://i.postimg.cc/rmYd2thr/1662150356528.jpg"
-              alt=""
-              style="border: 3px solid white;"
-              width="372"
-              height="357"
-            />
-           <div >
-              <h1  id= purple-myname class="display-5 fw-bold" style="font-family: sans-serif -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" > <b> Zukisa Maza</h1></b><br>
-            </div>
-            <div class="col-lg-6 mx-auto">
-              <h2 class=" text-dark text-size-10pxlead mb-4">
-                I am an aspirant <b>Fullstack Developer</b>. 
-                <p>I offer <b>Web Development</b> services.</p> 
-                <p> Lets connect!</p>
-              </h2>
-              <div class="d-grid gap-2 d-flex justify-content-center">
-                <button type="button" style="color: rgb(106, 85, 117);" class="btn btn-muted btn-lg px-4 gap-3">
-                 <a style="color: rgb(76, 86, 88);" href=" https://github.com/Maza455" target="_blank"><i  class="bi bi-github" style="font-size: 2em;padding-bottom: px;"></i></a>
-                </button>
-                <button type="button" class="btn btn-muted btn-lg gap-2">
-                 <a style="color: rgb(49, 66, 212);" href="https://www.linkedin.com/in/eric-zukisa-maza-2376b119b/" target="_blank"><i class="bi bi-linkedin" style="font-size: 2em;padding-bottom:0;"></i></a>
-                </button>
-                <br><br><br><br><br><br>
-              </div>      
-            </div>
-          </div>
-        </section>
-      </section>
+<!-- HOME Landing Section -->
+<section id="landing-page" class="landing-animation" class="bgimage">
+  <div class="px-4 py-5 text-center">
+    <div class="row">
+    <br><br>
+    <img
+      id="landing-photo"
+      class="d-block mx-auto mb-4 img-responsive"
+      src="https://i.postimg.cc/rmYd2thr/1662150356528.jpg"
+      alt="" width="372px" height="357px"/>
+    <div>
+      <h1 id="purple-myname" class="display-5 fw-bold">
+        <b> Zukisa Maza</b>
+      </h1><br>
+    </div>
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
+      <h2 class="text-dark text-size-50px lead mb-4">
+        I am an aspirant <b>Fullstack Developer</b>.
+        <p>I offer <b>Site's and Application's</b> services.</p>
+        <p>To know more about MeSelf, <a href="https://www.linkedin.com/in/eric-zukisa-maza-2376b119b/">Let's connect</a>!</p>
+      </h2>
+      <div class="d-grid gap-2 d-flex justify-content-center">
+        <button type="button" class="btn btn-muted btn-lg px-4 gap-3">
+          <a class="button-link button-link-github" href="https://github.com/Maza455" target="_blank">
+            Click Me!<i class="bi bi-github" style="font-size: 2em;"></i>
+          </a>
+        </button>
+        <button type="button" class="btn btn-muted btn-lg gap-2">
+          <a class="button-link button-link-linkedin" href="https://www.linkedin.com/in/eric-zukisa-maza-2376b119b/" target="_blank">
+            <i class="bi bi-linkedin" style="font-size: 2em;"></i>
+          </a>
+        </button>
+      </div>
+      </div>
+    </div>
+  </div>
+</section>
     
         <!-- About Section -->
-     <section style="padding-top: 100px;padding-bottom: 130px;" id="about-page">
-    
-      
-      <h1 class="text-center" style="padding-top: 20px; padding-bottom: 20px; border-bottom:solid 2px; font-family: sans-serif -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" id= purple-myname >About Me</h1>
-      <div style="padding-top: 60px;">    </div>
-        <div  class="card-group"    >
-          <div class="card border-radius-10px">
-            <img id=about-image class="card-img-top" style="width: 400px;height: 500px;" src="https://i.postimg.cc/PqrhckJL/mazamaza.jpg" alt="Card image cap">
-            <div class="card-body">
-           
-            </div>
-          </div>
-          <div class="card">
-            <div class="card-body">
-           
-              <h5 class="card-title"> <strong> <h4 id= purple-myname >MeSelf Details</h4> </strong></h5>
-              <p class="card-text">   
-                
-                <h5>Full name:</h5> Zukisa Maza
-                <h5> Date of birth:</h5> 05/03/****
-                <h5>  Location:</h5> Cape Town
-                <h5> Cell Phone number:</h5> 0699950266
-                <h5>Email Address:</h5> maza2pac77@gmail.com <br>
-              <p class="card-text"><small id= purple-myname><button>Download CV</button></small></p>
-            </div>
-          </div>
-          <div class="card">
-           
-            <div  class="card-body">
-              <h5 class="card-title">
-                <strong> <h4 id= purple-myname >Bio</h4> </strong></h5>
-              <p class="card-text">
-                I am an aspiring Full-Stack Developer. I am a dedicated, honest and
-                optimistic young man residing in Cape Town. Not only that, but I am
-                fluent in both English and isiXhosa. Furthermore, I am willing to
-                learn in any environment, and I enjoy working with people. I am a
-                person who believes in leading by example. I believe my web
-                development skills will align with my future endeavours in the
-                Entertainment Industry.
-                <strong></p>
-                 
-    
-                <h4 id= purple-myname >Where did my passion for coding start?</h4></strong>
-                <br />
-                <p> Computer Science has always been an interest at the back of my mind.
-                Generally I am a curious person, so I've always wondered how a
-                computer works. In the past three years coding has been something
-                I've been seeing on my screen, and so I realised it is a fundamental
-                skill to learn in this day and age.</p>
-              </div>
-          </div>
-        </div>
-       
-      </section>
-    
-          <!-- MY SKILLS SECTION -->
-    
-          <section style=" padding-right: 90px; padding-left: 90px;" >
-          <div id="myskills-cards display-flex">
-    
-    
-    <h3 class="text-center" style="padding-top: 20px; padding-bottom: 20px; border-bottom:solid 2px  sans-serif -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;"  id= purple-myname >Technical Skills</h3>
-    <br><br>
-    
-      
-    
-    
-      <!-- HTML card -->
-    
-    <div class="card-group">
-      <div class="card">  <h5 class="card-title text-muted text-center" >HTML & CSS </h5><br>     
-        <img style="height: 280px;" src="https://i.postimg.cc/h4HQtTrD/k5dp029baand3ni510db.webp"/>
-        <div class="card-body">
-         
-            </div>
+<section id="about-page">
+  <h1 class="text-center" id="about-heading">About Me</h1>
+  <div class="card-group">
+    <div class="card border-radius-10px">
+      <img id="about-image" class="card-img-top" src="https://i.postimg.cc/PqrhckJL/mazamaza.jpg" alt="Card image cap">
+      <div class="card-body">
       </div>
-      
-      <!-- Bootstrap card -->
-    
-    
+      <div class="social-links">
+        <a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
+        <a href=""><i class="fa fa-instagram"></i></a>
+        <a href=""><i class="fa fa-linkedin"></i></a>
+    </div>
+    </div>
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">
+          <strong>
+            <h4 id="purple-myname">MeSelf Details</h4>
+          </strong>
+        </h5>
+        <p class="card-text">
+          <h5>Full name:</h5> Zukisa Maza
+          <h5>Date of birth:</h5> 05/03/****
+          <h5>Location:</h5> Cape Town
+          <h5>Cell Phone number:</h5> 0699950266
+          <h5>Email Address:</h5> maza2pac77@gmail.com
+          <p class="card-text">
+            <small id="purple-myname"><button class="btn btn-outline-success">Download CV</button></small>
+          </p>
+        </div>
+      </div>
       <div class="card">
-              <h5 class="card-title text-muted text-center" >OOP</h5>
-    
-        <img style="height: 280px;" src="https://i.postimg.cc/6QwQGh2K/download-5.jpg" class="card-img-top" alt="...">
         <div class="card-body">
-            </div>
-      </div>
-    
-    <!-- CSS card -->
-    
-    
-      <div class="card">      <h5 class="card-title text-muted text-center" >Evolution-of-Linux-visualisation</h5>
-    
-        <img style="height: 280px;" src="https://i.postimg.cc/2534gmG3/0-Uj-BJ-i-TNESi6-Zevk.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-           </div>
+          <h5 class="card-title">
+            <strong>
+              <h4 id="purple-myname">Bio</h4>
+            </strong>
+          </h5>
+          <p class="card-text">
+            I am an aspiring Full-Stack Developer. I am a dedicated, honest, and optimistic young man residing in Cape Town. Not only that, but I am fluent in both English and isiXhosa. Furthermore, I am willing to learn in any environment, and I enjoy working with people. I am a person who believes in leading by example. I believe my web development skills will align with my future endeavors in the Entertainment Industry.
+          </p>
+          <h4 id="purple-myname">Where did my passion for coding start?</h4>
+          <br/>
+          <p>
+            Computer Science has always been an interest at the back of my mind. Generally, I am a curious person, so I've always wondered how a computer works. In the past three years, coding has been something I've been seeing on my screen, and so I realized it is a fundamental skill to learn in this day and age.
+          </p>
+        </div>
       </div>
     </div>
-    
-    
-      <!-- Data Wrangling card -->
-    
-      <div class="card-group">
-        <div class="card">  <h5 class="card-title text-muted text-center" > Data Science </h5><br>     
-          <img style="height: 280px;" src="https://i.postimg.cc/J0YYVKJW/1-mg-Xvz-Ncwfpn-Baw-I6-XTk-VRg-1.png"/>
-          <div class="card-body">
-           
-              </div>
-        </div>
-        
-        <!-- Javascript card -->
-      
-      
-        <div class="card">
-                <h5 class="card-title text-muted text-center" >Javascript</h5><br>
-      
-          <img style="padding-left: 30px; " src="https://i.postimg.cc/5twxrPGm/thumb2-javascript-glitter-logo-programming-language-grid-metal-background-javascript-creative.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-              </div>
-        </div>
-      
-      <!-- Github card -->
-      
-      
-        <div class="card">      <h5 class="card-title text-muted text-center" >Git / Github</h5><br>
-      
-          <img src="https://i.postimg.cc/0N9QFCCQ/images.png" class="card-img-top" alt="...">
-          <div class="card-body">
-             </div>
-        </div>
+  </section>
+
+<!-- MY SKILLS SECTION -->
+<section id="myskills-cards">
+  <h3 class="text-center" id="skills-heading">Technical Skills</h3>
+
+  <div class="cards-container">
+    <!-- HTML card -->
+    <div class="card">
+      <h5 class="card-title">HTML & CSS</h5>
+      <img src="https://i.postimg.cc/h4HQtTrD/k5dp029baand3ni510db.webp" class="card-img-top" alt="HTML & CSS">
+      <div class="card-buttons">
+        <button href="https://github.com/Maza455" class="btn btn-success">View More</button>
+        <button href="" class="btn btn-success" target="_blank">Netlify</button>
       </div>
-    
     </div>
-    </section>
+
+    <!-- OOP card -->
+    <div class="card">
+      <h5 class="card-title">OOP</h5>
+      <img src="https://i.postimg.cc/6QwQGh2K/download-5.jpg" class="card-img-top" alt="OOP">
+      <div class="card-buttons">
+        <button href="https://github.com/Maza455" class="btn btn-danger">View More</button>
+        <button href="https://www.netlify.com" class="btn btn-danger" target="_blank">Netlify</button>
+      </div>
+    </div>
+
+    <!-- Evolution-of-Linux-visualisation card -->
+    <div class="card">
+      <h5 class="card-title">Evolution-of-Linux-visualisation</h5>
+      <img src="https://i.postimg.cc/2534gmG3/0-Uj-BJ-i-TNESi6-Zevk.jpg" class="card-img-top" alt="Evolution-of-Linux-visualisation">
+      <div class="card-buttons">
+        <button href="https://github.com/Maza455" class="btn btn-success">View More</button>
+        <button href="https://www.netlify.com" class="btn btn-success" target="_blank">Netlify</button>
+      </div>
+    </div>
+
+    <!-- Data Science card -->
+    <div class="card">
+      <h5 class="card-title">Data Science</h5>
+      <img src="https://i.postimg.cc/J0YYVKJW/1-mg-Xvz-Ncwfpn-Baw-I6-XTk-VRg-1.png" class="card-img-top" alt="Data Science">
+      <div class="card-buttons">
+        <button href="https://github.com/Maza455" class="btn btn-danger">View More</button>
+        <button href="https://www.netlify.com" class="btn btn-danger" target="_blank">Netlify</button>
+      </div>
+    </div>
+
+    <!-- Javascript card -->
+    <div class="card">
+      <h5 class="card-title">Javascript</h5>
+      <img src="https://i.postimg.cc/5twxrPGm/thumb2-javascript-glitter-logo-programming-language-grid-metal-background-javascript-creative.jpg" class="card-img-top" alt="Javascript">
+      <div class="card-buttons">
+        <button href="https://github.com/Maza455" class="btn btn-success">View More</button>
+        <button href="https://www.netlify.com" class="btn btn-success" target="_blank">Netlify</button>
+      </div>
+    </div>
+
+    <!-- Git / Github card -->
+    <div class="card">
+      <h5 class="card-title">Git / Github</h5>
+      <img src="https://i.postimg.cc/0N9QFCCQ/images.png" class="card-img-top" alt="Git / Github">
+      <div class="card-buttons">
+        <button href="https://github.com/Maza455" class="btn btn-danger">View More</button>
+        <button href="https://www.netlify.com" class="btn btn-danger" target="_blank">Netlify</button>
+      </div>
+    </div>
+  </div>
+</section>
+
     
-        <!--Timeline of Work/Education  Section-->
-      
-        
-        <section style=" padding-top: 100px;" id=timeline-page >
+<!--Timeline of Work/Education  Section-->
+        <section style=" padding-top: 100px;" id="timeline-page" >
         <h1 class="py-4 text-center" style="padding-top: 20px; padding-bottom: 20px; border-bottom:solid 2px; font-family: sans-serif -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" id= purple-myname >Experience</h1>
         <div class="container">
           <div class="main-timeline">
@@ -274,8 +230,6 @@
                                         <h4> Life Choices Academy </h4>
                                           <h3 id="purple-myname" class="title ">Computer Programming, Personal & Profesional Development </h3>
                                           <p class="description">
-                                             
-                                           
                                             <h5> Currently enrolled in a 6 months Coding course <br>
                                             Skills offered.</h5>
                                              <br> 
@@ -284,20 +238,24 @@
                                                Chance to develop future orientated skills (emerging opportunities) </p> 
                                               
                                          <li>  <p>Gain Confidence </li> 
-                                            Gain confidence in being able to assess problems and design solutions. 
-                                              
+                                            Gain confidence in being able to assess problems and design solutions.   
                                           </p>
                                               
-                                        <li> <p>Team Work</li> 
+                                        <li> 
+                                          <p>Team Work</li> 
                                                Learn how to work cohesively in a team and get pracice with the tools used in the professional industry. </p> 
                                               
-                                         <li> <p> Marketable Skills</li>
+                                         <li>
+                                          <p>Marketable Skills</li>
                                               Relevant technical skills for the 21st century. </p> 
                                               
-                                         <li><p> Problem Solving </li> Learn critical and abstract thinking to address relevant issues.</p>  
+                                         <li>
+                                          <p>Problem Solving </li> Learn critical and abstract thinking to address relevant issues.</p>  
                     
-                                         <li> <p> Social Awareness </li>Use web skills as a means for social impact.
-                                          </p></ul>
+                                         <li>
+                                          <p>Social Awareness </li>Use web skills as a means for social impact.
+                                          </p>
+                                        </ul>
                                       </div>
                                   </div>
                                   <!-- end experience section-->
@@ -320,9 +278,6 @@
                                             <p>Shop Assistant </p>
                                             <p>Duties:
                                              Assisted with the daily operations around the shop, namely stock-taking, pricing and assisting customers with their needs </p>
-                                           
-    
-                                            
                                           </p>
                                       </div>
                                   </div>
@@ -347,7 +302,6 @@
                                            <p> Duties: Assisted the driver with deliveries & collections. </p>
                                            <p> Assisted with administration work (paperwork). </p>
                                            <p> Data capturing for the collections in and out of the warehouse.</p>
-                                            
                                           </p>
                                       </div>
                                   </div>
@@ -369,8 +323,8 @@
                                           <h5 class="title" id= purple-myname>Bridging Year Programme</h5>
     
                                           <h6 class="description"> <b>Bridging Year programme includes:</b></h6><br>
-    <ul>
-                                           <p> Preparation for life at University and College </p>
+                                          <ul>
+                                            <p> Preparation for life at University and College </p>
                                             
                                             <p> Career guidance </p>
     
@@ -387,8 +341,6 @@
                                             <p> Hikes and educational excursions </p>
                                             
                                             <p> Community Service, leading students to give back to their communities while gaining valuable work experience </p>
-                                                                                  
-                                         
                                       </div>
                                   </div>
                                   <!-- end experience section-->
@@ -433,7 +385,7 @@
                                         <h5 class="title" id= purple-myname>National Senior Certificate</h5>
     
                                         <h6 class="description"> <b>Subjects done:</b></h6><br>
-    <ul>
+                                        <ul>
                                          <p> Maths </p>
                                           
                                           <p> English </p>
@@ -446,172 +398,164 @@
                                           
                                           <p>Geography</p>
     
-                                          <p> Life Orientation </p>
-                                                                          
+                                          <p> Life Orientation </p>                                    
                                     </div>
                                 </div>
                                 </div>
-          </div>
-        </section>
+                              </div>
+                            </section>
     
-         <!-- Portfolio section -->
-    
-         <section id="portfolio-page" style=" padding-right: 90px; padding-left: 90px;">
-          <h1 class=" text-center" style="padding-top: 2px; padding-bottom: 20px; border-bottom:solid 2px; font-family: sans-serif -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; "  id= purple-myname >My Projects</h1>
-         <div id="portfolio-row" style="padding-top: 110px;"  class="row row-cols-1 row-cols-md-3 g-4">
-          <div class="col col-md-12 col-md-4 col-lg-4">
-            <div class="card h-100">
-              <img style="height:70%; width :60%; display: flex; justify-content: center;"  id="portfolio-image" src="https://i.postimg.cc/RhkL9YPK/download-2.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Netflix</h5>
-                <p class="card-text">First ever Netflix created with Html and Css </p>
-              </div>
-              <div class="card-footer">
-                <button type="button" class="btn btn-muted btn-lg px-4 gap-3">
-                  <a style="color: rgb(76, 86, 88);" href=" https://github.com/Maza455" target="_blank"><i  class="bi bi-github" style="font-size: 2em;padding-bottom: 400px;"></i></a>
-                 </button>
-                <small class="text-muted">Last updated 4 days ago</small>
-              </div>
-            </div>
-          </div>
-          <div class="col col-md-12 col-md-4 col-lg-4">
-            <div class="card h-100"> 
-              <img style="height:70%; width :60%"  id="portfolio-image" src="https://i.postimg.cc/1Xh8zZQm/catalogfeed-9171c225-3002-4fc7-be04-1313a27ba376.webp" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Keyboard</h5>
-                <p class="card-text">This is a task where we practised how to design ad develop Virtual Keyboard.</p>
-              </div>
-              <div class="card-footer"><button type="button" class="btn btn-muted btn-lg px-4 gap-3">
-                <a style="color: rgb(76, 86, 88);" href="https://github.com/Maza455/carousels" target="_blank"><i  class="bi bi-github" style="font-size: 2em;padding-bottom: 400px;"></i></a>
-               </button>
-                <small class="text-muted">Last updated a week ago</small>
-              </div>
-            </div>
-          </div>
-          <div class="col col-md-12 col-md-4 col-lg-4">
-            <div class="card h-100">
-              <img style="height:70%; width :60%" id="portfolio-image" src="https://i.postimg.cc/k4hBxm9P/e726abd62a7d08749d3a882889cdc78d.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title ">Calculator</h5>
-                <p class="card-text"> This is a calculator working on.</p>
-              </div>
-              <div class="card-footer">
-                <button type="button" class="btn btn-muted btn-lg px-4 gap-3">
-                  <a style="color: rgb(76, 86, 88);" href="https://github.com/Maza455/LC_Calculator.git" target="_blank"><i  class="bi bi-github" style="font-size: 2em;padding-bottom: 400px;"></i></a>
-                 </button>
-                <small class="text-muted">Last updated a week ago</small>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-    
-      <!-- TESTIMONIAL -->
-        <section style="padding-top: 80px;  padding-right: 90px; padding-left: 90px;" id="testimonials-page">
-          <br>
-          <h1 id= purple-myname style="padding-top: 20px; padding-bottom: 20px; border-bottom:solid 2px; font-family: sans-serif -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" class="text-center">Testimonials</h1>
-          <br><br>
-    
-            <div class="col-lg-4">
-              <img class="rounded-circle" src="https://i.postimg.cc/gJcYSB4c/1602231622738.jpg" alt="Generic placeholder image" width="160" height="160">
-              <h5 id= purple-myname> Thembela Selani <a style="color: rgb(59, 61, 179);" href="https://www.linkedin.com/in/thembela-selani-8635791b2/" target="_blank"><i class="bi bi-linkedin" style="font-size: 1em;padding-bottom: 400px;"></i></a>
-              </h5>             
-    
-              <h6 id= purple-myname>Coding Student </h6>
-    
-              <p> <em>"Bulela is a smart student with a bright future.
-                  He always has a smile on his face and is a pleasure to work with.
-                  I look forward to seeing what he will achieve in the future and highly reccomend him
-                ."</em></p>
-                <div>
-                </div>
-            </div>
-            <!-- /.col-lg-4 -->
-          </div>
-          <div class="row">
-            <div class="col-lg-4">
-              <img class="rounded-circle" src="https://i.postimg.cc/nhmX8gxn/1642894920120.jpg" alt="Generic placeholder image" width="160" height="160">
-              <h5 id= purple-myname> Vuyile Magwaza <a style="color: rgb(59, 61, 179);" href="https://www.linkedin.com/in/vuyile-magwaza-bb6315164/" target="_blank"><i class="bi bi-linkedin" style="font-size: 1em;padding-bottom: 400px;"></i></a>
-              </h5>            
-    
-              <h6 id= purple-myname>Coding Student</h6>
-    
-              <p><em>"Zukisa Maza is a hard working with peserverance, always eager to learn or work and he is quite friendly." </em> </p><br>
-               <div>
-               </div>
-            </div>
 
-            <div class="col-lg-4">
-              <img class="rounded-circle" src="https://i.postimg.cc/rmNyy2ZL/1591703723605.jpg" alt="Generic placeholder image" width="160" height="160">
-              <h5 id= purple-myname>Asanda Radebe <a style="color: rgb(59, 61, 179);" href="https://www.linkedin.com/in/asandaradebe/" target="_blank"><i class="bi bi-linkedin" style="font-size: 1em;padding-bottom: 400px;"></i></a>
-              </h5>  
+         <!-- Portfolio section -->
+<section id="portfolio-page">
+  <h1 class="text-center" id="portfolio-heading">My Projects</h1>
+  <div id="portfolio-row" class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col col-md-12 col-md-4 col-lg-4">
+      <div class="card h-100">
+        <img id="portfolio-image" src="https://i.postimg.cc/RhkL9YPK/download-2.png" class="card-img-top" alt="Netflix">
+        <div class="card-body">
+          <h5 class="card-title">Netflix</h5>
+          <p class="card-text">First ever Netflix created with Html and Css</p>
+          <a target="_blank" class="ntf-btn" href="https://maza455.github.io/LC_Project_Netflix/">
+            <button>Netflix</button>
+          </a>
+        </div>
+        <div class="card-footer">
+          <button type="button" class="btn btn-muted btn-lg px-4 gap-3">
+            <a href="https://github.com/Maza455" target="_blank"><i class="bi bi-github" style="font-size: 2em;"></i></a>
+          </button>
+          <small class="text-muted">Last updated 4 days ago</small>
+        </div>
+      </div>
+    </div>
+    <div class="col col-md-12 col-md-4 col-lg-4">
+      <div class="card h-100">
+        <img id="portfolio-image" src="https://i.postimg.cc/1Xh8zZQm/catalogfeed-9171c225-3002-4fc7-be04-1313a27ba376.webp" class="card-img-top" alt="Keyboard">
+        <div class="card-body">
+          <h5 class="card-title">Keyboard</h5>
+          <p class="card-text">This is a task where we practiced how to design and develop a Virtual Keyboard.</p>
+          <a target="_blank" class="ntf-btn" href="https://maza455.github.io/KeyBoard/">
+            <button>Keyboard</button>
+          </a>
+        </div>
+        <div class="card-footer">
+          <button type="button" class="btn btn-muted btn-lg px-4 gap-3">
+            <a href="https://github.com/Maza455/carousels" target="_blank"><i class="bi bi-github" style="font-size: 2em;"></i></a>
+          </button>
+          <small class="text-muted">Last updated a week ago</small>
+        </div>
+      </div>
+    </div>
+    <div class="col col-md-12 col-md-4 col-lg-4">
+      <div class="card h-100">
+        <img id="portfolio-image" src="https://i.postimg.cc/k4hBxm9P/e726abd62a7d08749d3a882889cdc78d.png" class="card-img-top" alt="Calculator">
+        <div class="card-body">
+          <h5 class="card-title">Calculator</h5>
+          <p class="card-text">This is a calculator working on.</p>
+          <a target="_blank" class="ntf-btn" href="https://maza455.github.io/LC_Calculator/">
+            <button>Calculator</button>
+        </div>
+        <div class="card-footer">
+          <button type="button" class="btn btn-muted btn-lg px-4 gap-3">
+            <a href="https://github.com/Maza455/LC_Calculator.git" target="_blank"><i class="bi bi-github" style="font-size: 2em;"></i></a>
+          </button>
+          <small class="text-muted">Last updated a week ago</small>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
     
-            
-              <h6 id= purple-myname>Computer Programming Student </h6>
-    
-              <p> <em> "As a fellow student, I think Zukisa has a friendly and caring personality. He loves participating when he knows the answer. He is a hard working individual who always shows determination to learn and to help others."</em></p>
-              <div>
-              
-              </div>
-            </div>
-    
-            <div class="col-lg-4">
-              <img class="rounded-circle" src="https://i.postimg.cc/1XFgrjJC/1687250502989.jpg" alt="Generic placeholder image" width="160" height="160">
-              <h5 id= purple-myname> Nkosinathi Siyeni <a style="color: rgb(59, 61, 179);" href="https://www.linkedin.com/in/nkosinathi-siyeni-782b471b1/" target="_blank"><i class="bi bi-linkedin" style="font-size: 1em;padding-bottom: 400px;"></i></a>
-              </h5>          
-    
-              <h6 id= purple-myname>Coding Student </h6>
-              <p> <em>"Zukisa is a hard worker and a determined person in general. Additionally, he is a person who loves a challenge."</em></p><br>
-              <div>
-              </div>
-            </div>
-            </div>
-    
-        <!-- CONTACT -->
-    
-        <section style="padding-top:100px;" class="contact">
-    
-          <!-- -------- contact form ----------- -->
+<!-- TESTIMONIAL -->
+<section id="testimonials-page">
+  <h1 id="testimonials-heading" class="text-center">Testimonials</h1>
+
+  <div class="row">
+    <div class="col-lg-6 col-md-6 col-sm-12">
+      <div class="testimonial-card">
+        <img class="rounded-circle" src="https://i.postimg.cc/gJcYSB4c/1602231622738.jpg" alt="Thembela Selani">
+        <h5 id="purple-myname">Thembela Selani <a href="https://www.linkedin.com/in/thembela-selani-8635791b2/" target="_blank"><i class="bi bi-linkedin"></i></a></h5>
+        <h6 id="purple-myname">Data Scientist</h6>
+        <p><em>"Bulela is a smart student with a bright future. He always has a smile on his face and is a pleasure to work with. I look forward to seeing what he will achieve in the future and highly recommend him."</em></p>
+      </div>
+    </div>
+    <div class="col-lg-6 col-md-6 col-sm-12">
+      <div class="testimonial-card">
+        <img class="rounded-circle" src="https://i.postimg.cc/nhmX8gxn/1642894920120.jpg" alt="Vuyile Magwaza">
+        <h5 id="purple-myname">Vuyile Magwaza <a href="https://www.linkedin.com/in/vuyile-magwaza-bb6315164/" target="_blank"><i class="bi bi-linkedin"></i></a></h5>
+        <h6 id="purple-myname">Web Developer</h6>
+        <p><em>"Zukisa Maza is a hardworking person with perseverance, always eager to learn or work, and he is quite friendly."</em></p>
+      </div>
+    </div>
+    <div class="col-lg-6 col-md-6 col-sm-12">
+      <div class="testimonial-card">
+        <img class="rounded-circle" src="https://i.postimg.cc/rmNyy2ZL/1591703723605.jpg" alt="Asanda Radebe">
+        <h5 id="purple-myname">Asanda Radebe <a href="https://www.linkedin.com/in/asandaradebe/" target="_blank"><i class="bi bi-linkedin"></i></a></h5>
+        <h6 id="purple-myname">Computer Programming Student</h6>
+        <p><em>"As a fellow student, I think Zukisa has a friendly and caring personality. He loves participating when he knows the answer. He is a hardworking individual who always shows determination to learn and to help others."</em></p>
+      </div>
+    </div>
+    <div class="col-lg-6 col-md-6 col-sm-12">
+      <div class="testimonial-card">
+        <img class="rounded-circle" src="https://i.postimg.cc/SRXQ8YRq/1690465956035.jpg" alt="Joel">
+        <h5 id="purple-myname">Joel Mukanya <a href="https://www.linkedin.com/in/joel-tshimanga-mukanya-b4b27834/" target="_blank"><i class="bi bi-linkedin"></i></a></h5>
+        <h6 id="purple-myname">FullStack Student</h6>
+        <p><em>"As a fellow student, I think Zukisa has a friendly and caring personality. He loves participating when he knows the answer. He is a hardworking individual who always shows determination to learn and to help others."</em></p>
+      </div>
+    </div>
+    <div class="col-lg-6 col-md-6 col-sm-12">
+      <div class="testimonial-card">
+        <img class="rounded-circle" src="https://i.postimg.cc/LsXsRWSn/1517847608156.jpg" alt="Candice Amon">
+        <h5 id="purple-myname">Candice Amon<a href="https://www.linkedin.com/in/candice-amon-5b567414a/" target="_blank"><i class="bi bi-linkedin"></i></a></h5>
+        <h6 id="purple-myname">Software Developer Student</h6>
+        <p><em>"As a fellow student, I think Zukisa has a friendly and caring personality. He loves participating when he knows the answer. He is a hardworking individual who always shows determination to learn and to help others."</em></p>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-4 col-sm-12">
+      <div class="testimonial-card">
+        <img class="rounded-circle" src="https://i.postimg.cc/1XFgrjJC/1687250502989.jpg" alt="Nkosinathi Siyeni">
+        <h5 id="purple-myname">Nkosinathi Siyeni <a href="https://www.linkedin.com/in/nkosinathi-siyeni-782b471b1/" target="_blank"><i class="bi bi-linkedin"></i></a></h5>
+        <h6 id="purple-myname">Coding Student</h6>
+        <p><em>"Zukisa is a hard worker and a determined person in general. Additionally, he is a person who loves a challenge."</em></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- CONTACT -->
+  <section id="contact">
     <section class="mb-4">
-      <div >
-         <h1 class="text-center"  id= purple-myname style="padding-top: 20px; padding-bottom: 20px; padding-right: 20px; font-family: sans-serif -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; border-bottom:solid 2px;"   >Contact me</h1></div>
+      <div><h1 class="text-center"  id="purple-myname" style="padding-top: 20px; padding-bottom: 20px; padding-right: 20px; font-family: sans-serif -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; border-bottom:solid 2px;"   >Contact me</h1></div>
     
-    
-      <!--Section heading-->
       <h2 class="h1-responsive font-weight-bold text-center my-4"></h2>
 
-      <p  id= purple-myname class="text-center w-responsive  mx-auto mb-5">Do you have any questions? Please do not hesitate to contact me directly. I will come back to you within
+      <p  id="purple-myname" class="text-center w-responsive  mx-auto mb-5">Do you have any questions? Please do not hesitate to contact me directly. I will come back to you within
           a matter of hours to help you.</p>
     
-      <div class="row " style="border:solid  1px; padding-top:10px ;  padding-bottom:10px; border-radius: 20px;">
+      <div class="row" style="border:solid  1px; padding-top:10px ;  padding-bottom:10px; border-radius: 20px;">
     
           <!--Grid column-->
           <div class="col-md-9 mb-md-0 mb-5">
               <form id="contact-form" name="contact-form" action="https://formspree.io/f/xnqklpew" method="POST">
     
-                  <!--Grid row-->
+                  <!--Grid row and col-->
                   <div class="row">
-    
-                      <!--Grid column-->
                       <div class="col-md-6">
                           <div class="md-form mb-0">
                               <input type="text" id="name" name="name" class="form-control" required>
-                              <label for="name" class="">Your name</label>
+                              <label for="name" class="">Your name:</label>
                           </div>
                       </div>
-                      <!--Grid column-->
     
                       <!--Grid column-->
                       <div class="col-md-6">
                           <div class="md-form mb-0">
                               <input type="email" id="email" name="email" class="form-control" required>
-                              <label for="email" class="">Your email</label>
+                              <label for="email" class="">Your email:</label>
                           </div>
                       </div>
-                      <!--Grid column-->
-    
                   </div>
-                  <!--Grid row-->
     
                   <!--Grid row-->
                   <div style=" height:110px;" class="row">
@@ -622,38 +566,30 @@
                           </div>
                       </div>
                   </div>
-                  <!--Grid row-->
     
-                  <!--Grid row-->
+                  <!--Grid row and col-->
                   <div style=" height:110px;" class="row">
-    
-                      <!--Grid column-->
                       <div class="col-md-12">
-    
                           <div class="md-form">
                               <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea" required></textarea>
                               <label for="message">Your message</label>
                           </div>
-    
                       </div>
                   </div>
-                  <!--Grid row-->
-    
               </form>
-    
+
               <div class="text-center text-md-left">
                   <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
               </div>
               <div class="status"></div>
           </div>
-          <!--Grid column-->
     
           <!--Grid column-->
           <div style="border:solid  1px; padding-top:10px ;;  border-radius: 50px;" class="col-md-3 text-center">
               <ul class="list-unstyled mb-0">
                   <li>
                     <p> CAMPUS ADDRESS</p>
-                    <div  >
+                    <div>
                 <iframe style="float: bottom; border-radius: 15%;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3308.2934215261566!2d18.490473614807716!3d-33.9849962806242!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dcc433bfcf832a1%3A0x3b4439b8cc517802!2s314%20Imam%20Haron%20Rd%2C%20Lansdowne%2C%20Cape%20Town%2C%207780!5e0!3m2!1sen!2sza!4v1633096149800!5m2!1sen!2sza" width="200" height="120" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                 </div>
                       <p>
@@ -670,8 +606,7 @@
                   <li><i class="fas fa-envelope mt-4 fa-2x"></i>
                       <p>maza2pac77@gmail.com</p>
                         <a style="color: rgb(7, 117, 125);" href=" https://github.com/Maza455" target="_blank"><i  class="bi bi-instagram" style="font-size: 3em;padding-bottom: 400px;"></i></a>
-                        <a style="color: rgb(9, 71, 203);" href="https://www.linkedin.com/in/eric-zukisa-maza-2376b119b/" target="_blank"><i class="bi bi-linkedin" style="font-size: 3em;padding-bottom: 400px;"></i></a>
-                          
+                        <a style="color: rgb(9, 71, 203);" href="https://www.linkedin.com/in/eric-zukisa-maza-2376b119b/" target="_blank"><i class="bi bi-linkedin" style="font-size: 3em;padding-bottom: 400px;"></i></a>    
                   </li>
               </ul>
           </div>
@@ -680,22 +615,22 @@
     </section>
     
        <!-- Start Footer -->
-       <footer>
-        <div class="container">
+       <footer id="footer">
+        <div class="container-fluid">
             <div class="row">
                 <div class="logo">
-                    Zukisa
+                  ⭐⭐⭐ Zukisa Maza ⭐⭐⭐
                 </div>
-                <div class="social">
-                    <a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
-                    <a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a>
-                    <a href="https://www.linkedin.com/"><i class="fa fa-linkedin"></i></a>
-                    <a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
-                    <a href="https://www.whatsapp.com/"><i class="fa fa-whatsapp"></i></a>
+                <!-- Social Icons -->
+                <div class="social-icons mt-4">
+                  <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+                  <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                  <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                  <a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+                  <a href="https://www.whatsapp.com/" target="_blank"><i class="fab fa-whatsapp"></i></a>
                 </div>
             </div>
         </div>
-
     </footer>
     <!-- End Footer -->
 
@@ -709,11 +644,8 @@
 
     <!-- Start Lightbox -->
     <div class="lightbox hide">
-        <span class="close-lightbox fa fa-close">
-            <!-- <img src="https://i.postimg.cc/qMQHf53W/c.jpg" alt="portfolio" /> -->
-        </span>
+        <span class="close-lightbox fa fa-close"></span>
     </div>
-    <!-- End Lightbox -->
             </div>
         </section>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>

@@ -1,3 +1,4 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
 /*Body styling*/
 *,
 *::after,
@@ -9,18 +10,49 @@
 
 body{
     box-sizing: border-box;
-    background-color: grey;
+    background-color: rgb(128, 128, 128);
     overflow-x: hidden;
-  
-
+    position: relative;
+    /* background-color: #f7f7f7; */
+    margin-top:20px;
 }
-/*Landing styling*/
+
+
 #landing-page{
     box-sizing: content-box;
-    background-color: #ba1e8b;
-    /* background-image: url(keyboard.jpg); */
-    object-fit: cover;   
+    /* background-color: rgba(red, green, blue, alpha); */
+    /* background-image: url(https://i.postimg.cc/j5gMc7Dk/istockphoto-1044717842-612x612.jpg); */
+    object-fit: cover;
+    object-fit: cover;
+    padding-bottom: 50px;   
 }
+  
+#purple-myname {
+    font-family: sans-serif -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: purple;
+}
+  
+.text-size-10pxlead {
+    font-size: 10px;
+}
+  
+.button-link {
+    color: rgb(76, 86, 88);
+    text-decoration: none;
+}
+  
+.button-link:hover {
+    text-decoration: underline;
+}
+  
+.button-link-github {
+    color: rgb(106, 85, 117);
+  }
+  
+.button-link-linkedin {
+    color: rgb(49, 66, 212);
+}
+  
 
 img {
     animation: pulse 5s infinite;
@@ -33,13 +65,185 @@ img {
     border-color: rgb(228, 215, 215);
 }
 
-/* ---------------------------------------------navbar styles--------------------------------------------------------------- */
+#about-page {
+    padding-top: 100px;
+    padding-bottom: 130px;
+}
+  
+#about-heading {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid;
+    font-family: sans-serif -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: purple;
+}
+  
+#about-image {
+    width: 400px;
+    height: 500px;
+}
+
+
+#myskills-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  
+#skills-heading {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid;
+    font-family: sans-serif -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: purple;
+}
+  
+  
+.card-title {
+    font-weight: bold;
+    font-size: 18px;
+    color: #777;
+}
+  
+.card-img-top {
+    height: 280px;
+}
+
+#myskills-cards {
+    padding: 20px;
+}
+  
+.cards-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+}
+  
+.card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s;
+    background-color: white;
+}
+  
+.card:hover {
+    transform: scale(1.05);
+}
+  
+
+
+#portfolio-page {
+    padding-right: 90px;
+    padding-left: 90px;
+}
+  
+#portfolio-heading {
+    padding-top: 2px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid;
+    font-family: sans-serif -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: purple;
+}
+  
+.card {
+    text-align: center;
+    margin: 10px;
+    width: 300px;
+    height: 400px;
+}
+  
+.card-title {
+    font-weight: bold;
+    font-size: 18px;
+    color: #777;
+}
+  
+.card-img-top {
+    height: 70%;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+}
+  
+.ntf-btn button {
+    background-color: #0070f3;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.ntf-btn a {
+    text-decoration: none;
+}
+  
+.btn-muted {
+    color: rgb(76, 86, 88);
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+
+#testimonials-page {
+    padding-top: 80px;
+    padding-right: 90px;
+    padding-left: 90px;
+  }
+  
+  #testimonials-heading {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid;
+    font-family: sans-serif -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: purple;
+  }
+  
+  .testimonial-card {
+    text-align: center;
+    margin: 10px;
+    width: 100%;
+    max-width: 320px;
+    display: inline-block;
+  }
+  
+  .testimonial-card img {
+    border-radius: 50%;
+    width: 160px;
+    height: 160px;
+  }
+  
+  .testimonial-card h5 {
+    color: purple;
+  }
+  
+  .testimonial-card h6 {
+    color: #777;
+  }
+  
+  .testimonial-card p {
+    font-style: italic;
+  }
+  
+  .testimonial-card a {
+    color: rgb(59, 61, 179);
+    text-decoration: none;
+  }
+  
+  
+/*---navbar styles---*/
  .navbar{
      position: fixed !important ;top: 0 !important;
      width: 100%;
      z-index: 48;
-    
-
  }
 
 .nav-link{
@@ -51,25 +255,23 @@ nav{
     background-color: rgb(190, 190, 190);
     
 }
+
 .nav-text:hover{
     color: rgb(97, 25, 155);
 }
-/*------------------------------------------ Underlining-------- Headings---------------------------------------------------- */
 
+/*--- Underlining --- Headings--- */
 h1{
     border-color: gray;
     border-bottom: 3px;
     border-width: 3px;
 }
 
-/* ------------------------------------------Testimonials CSS--------------------------------------------------------------- */
+/*---Testimonials CSS---*/
 section{
     box-sizing: border-box;
 }
 
-
-
-/* ----------------------------------------------------------------------------------------------------------------------- */
 .testimonials-image{
     height: 300px;
     width: 400px;
@@ -79,28 +281,23 @@ section{
     padding-right: 90px;
     padding-left: 90px;
 }
-.rounded-circle{
 
+.rounded-circle{
     object-fit: cover;
 }
 
-/*-------------------------------------------Portfolio CSS ---------------------------------------------------------------- */
+/*Portfolio CSS*/
 #portfolio-page{
-    
     padding-top: 150px;
     padding-bottom: 150px;
     padding-left: 150px;
     padding-right: 150px;
-   
-
-
 }
 #portfolio-row{
     padding-top: 19px;
     padding-bottom: 19px;
-
-
 }
+
 #portfolio-image{
     height: 300px;
     width: 100%;
@@ -125,17 +322,12 @@ padding-right: 150px;
     border: none !important;
 }
 
-/* ---Timeline css--- */
+
 
 #timeline-page{
     padding-right: 150px;
     padding-left: 150px;
     padding-top: 20px;
-}
-
-body{
-    /* background-color: #f7f7f7; */
-    margin-top:20px;
 }
 
 .main-timeline {
@@ -239,7 +431,6 @@ body{
 
 .main-timeline .date-outer:before,
 .main-timeline .date-outer:after {
-    content: "";
     width: 125px;
     height: 125px;
     margin: 0 auto;
@@ -390,25 +581,16 @@ body{
     }
 }
 
-
 /*--- Heading's COLORING --- */
-
 #purple-myname{
     color: blueviolet;
 }
 
 /*---MEDIA QUERIES --- */
-
 @media  (max-width :650px) {
-
 #landing-photo{
     height: 200px;
-    width: 200px;
-    
-}
-body{
-    overflow-x: hidden;
-    position: relative;
+    width: 200px;    
 }
     
 /*--- iframe ---*/
@@ -420,8 +602,7 @@ iframe{
     height: 200px;
     width: 200px;
     float: right;
-    place-content:inherit;
-    
+    place-content:inherit   
 }
 
   /*--- HOME-PAGE ---*/ 
@@ -430,25 +611,16 @@ iframe{
     position: fixed;
     top:30px;
     right:10px;
-}
+    }
 }
 
 
 /*--- Body styling --- */
-
-body{
-    box-sizing: border-box;
- 
-    overflow-x: hidden;
-
-}
-section{
-
-overflow-x: hidden;
+section {
+overflow-x: hiden;
 width: 100%;
-
-
 }
+
 /*--- Landing styling ---*/
 #landing-page{
     box-sizing: content-box;
@@ -467,21 +639,21 @@ width: 100%;
      position: fixed !important ;top: 0 !important;
      width: 100%;
      z-index: 48;
-    
-
  }
 
 .nav-link{
-    font-size: 23px;
-    
+    font-size: 23px;   
 }
 
 nav{
-    background-color: rgb(160, 134, 156);
-    
+    background-color: rgb(160, 134, 156);   
 }
 .nav-text:hover{
     color: rgb(97, 25, 155);
+}
+
+.navbar-height {
+    height: 30px;
 }
 
 h1{
@@ -500,18 +672,15 @@ h1{
 
 /*---Portfolio CSS ---*/
 #portfolio-page{
-    
     padding-top: 30px;
     padding-bottom: 30px;
     padding-right: 170px;
-
 }
 
-
-/*About page CSS*/
 h1, #purple-myname{
 padding-top: 20px;
 }
+
 #about-page{
 padding-left: 50px;
 padding-right: 50px;
@@ -539,10 +708,6 @@ padding-right: 50px;
 }
 }
 
-body{
-    margin-top:20px;
-}
-
 #about-image{
     border-radius: 10%;
     width: 300px;
@@ -550,23 +715,20 @@ body{
 }
 
 /*The Contact Form*/
-.contact {
-padding-right: 25px;
-}
-
-.contact {
+#contact {
+    padding-right: 25px;
     text-align: center;
     max-width: 750px;
     margin: 0 auto;
     padding: 20px;
     border: 1px solid #ddd;
-    background-color: #c6fac9;
+    background-color: #22ea2cda;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     display: flex;
     flex-direction: column;
     align-items: center;
     position: relative;
-    animation: pulse 2s infinite; /* Add animation properties */
+    animation: pulse 2s infinite;
   }
   
   @keyframes pulse {
@@ -574,7 +736,7 @@ padding-right: 25px;
         transform: scale(1);
     }
     50% {
-        transform: scale(1.1); /* Scale up at 50% */
+        transform: scale(1.1);
     }
     100% {
         transform: scale(1);
@@ -582,20 +744,20 @@ padding-right: 25px;
   }
   
   
-  .contact h1 {
+  #contact h1 {
     font-size: 24px;
     color: #333;
     margin-bottom: 20px;
   }
   
-  .contact p {
+  #contact p {
     font-size: 1rem;
     color: #555;
     margin-bottom: 20px;
   }
   
   
-  .contact address {
+  #contact address {
     font-size: 16px;
     color: #777;
     margin-bottom: 20px;
@@ -642,110 +804,114 @@ padding-right: 25px;
     transition: background-color 0.3s;
   }
   
-  input[type="submit"]:hover {
+input[type="submit"]:hover {
     background-color: #2ecc71;
+}
+
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 5px 0;
+    animation: slideUp 3s infinite;
+}
+  
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+  
+.social {
+    margin-top: 20px;
+}
+  
+.social a {
+    font-size: 20px;
+    margin-right: 10px;
+    color: #fff;
+    text-decoration: none;
+    transition: transform 0.2s;
+}
+  
+.social a:hover {
+    transform: scale(1.2);
+}
+
+.social-icons {
+    font-size: 36px;
+    cursor: pointer;
+}
+
+.fa-facebook:hover, .fa-instagram:hover, .fa-twitter:hover, .fa-linkedin:hover, .fa-whatsapp:hover {
+    color: #008000;
+}
+
+.fab {
+    color: #000000;
+}
+
+#footer {
+    background-color: #808080;
+}
+  
+  /* Copyright */
+.copyright {
+    background-color: #444;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+  
+  /* Lightbox */
+.lightbox {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 999;
+    text-align: center;
+}
+  
+.close-lightbox {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 24px;
+    cursor: pointer;
+}
+  
+  @keyframes slideUp {
+    from {
+      transform: translateX(100%);
+    }
+    /* to {
+      transform: translateX(0);
+    } */
+    to {
+        transform: translateX(-100);
+      }
   }
 
-/*lightbox*/
-.lightbox{
-    position: fixed;
-    left:0;
-    top:0;
-    right:0;
-    bottom:0;
-    z-index:100;
-    background-color: rgba(0,0,0,0.6);
-    justify-content: center;
-    align-items: center;
-
-}
-.lightbox.show{
-    display: flex;
-}
-
-.lightbox.hide{
-    display: none;
-}
-.lightbox .close-lightbox{
-    height:40px;
-    width:40px;
-    background-color:#ffffff;
-    color: indigo;
-    text-align: center;
-    line-height: 40px;
-    position: absolute;
-    right:10px;
-    top:10px;
-    cursor: pointer;
-    border-radius:50%;
-    z-index: 101;
-
-}
-
-.lightbox img{
-    max-width:90%;
-    max-height:88%;
-    display: block;
-}
-
-/*footer*/
-footer{
-    padding:70px 15px;
-    background-color: #0c0c17;
-}
-
-footer .logo{
-    flex:0 0 100%;
-    max-width: 100%;
-    text-align: center;
-    font-size: 45px;
-    color:#ffffff;
-    font-weight: 900;
-}
-
-footer .social{
-    flex:0 0 100%;
-    max-width: 100%;
-    text-align:center;
-    padding-top:15px;
-}
-
-footer .social a{
-    color:#999999;
-    text-decoration: none;
-    display: inline-block;
-    margin:0px 12px;
-    transition: all .5s ease;
-    text-decoration: none;
-}
-footer .social a:hover{
-    color:#ffffff;
-}
-
-/*copyright*/
-.copyright{
-    background-color: #0c0c17;
-    border-top:1px solid #1d1d27;
-    padding:15px;
-}
-.copyright p{
-    color:#838383;
-    margin:0;
-    text-align: center;
-    font-weight: 400;
-    font-size:15px;
-}
-
-.ham-burger .fa{
-    font-size:20px;
-    height:30px;
-    width:35px;
-    background-color: #ffffff;
-    color:#660066;
-    border-radius:3px;
-    line-height: 30px;
-    text-align: center;
-    cursor: pointer;
-    display: none;
-    border:1px solid #eeeeee;
-}
+@keyframes landingAnimation {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.05);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  /* Apply the animation to the landing page */
+  #landing-page {
+    animation: landingAnimation 5s infinite;
+  }
+  
+  
