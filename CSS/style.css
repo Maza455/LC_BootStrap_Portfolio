@@ -1,5 +1,4 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
-/*Body styling*/
 *,
 *::after,
 *::before{
@@ -13,18 +12,16 @@ body{
     background-color: rgb(128, 128, 128);
     overflow-x: hidden;
     position: relative;
-    /* background-color: #f7f7f7; */
     margin-top:20px;
 }
 
 
 #landing-page{
     box-sizing: content-box;
-    /* background-color: rgba(red, green, blue, alpha); */
-    /* background-image: url(https://i.postimg.cc/j5gMc7Dk/istockphoto-1044717842-612x612.jpg); */
     object-fit: cover;
     object-fit: cover;
-    padding-bottom: 50px;   
+    padding-bottom: 50px;
+    animation: landingAnimation 5s infinite;   
 }
   
 #purple-myname {
@@ -812,16 +809,19 @@ input[type="submit"]:hover {
 /* Footer */
 footer {
     background-color: #333;
-    color: #fff;
+    /* color: #fff; */
     padding: 5px 0;
     animation: slideUp 3s infinite;
+    text-align: center;
+    font-weight: bold;
+    font-size: 44px;
 }
   
-.logo {
-    font-size: 24px;
+/* .foot {
+    font-size: 44px;
     font-weight: bold;
-    text-align: center;
-}
+    text-align: center bold;
+} */
   
 .social {
     margin-top: 20px;
@@ -909,9 +909,5 @@ footer {
     }
   }
   
-  /* Apply the animation to the landing page */
-  #landing-page {
-    animation: landingAnimation 5s infinite;
-  }
   
   
