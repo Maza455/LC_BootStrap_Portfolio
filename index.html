@@ -4,54 +4,64 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.5.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Anton|Jura&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css">
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <title>Bootstrap_Portfolio</title>
 </head>
     <body>
-        <section id="home">
+  
         <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg fixed-top navbarScroll">
-          <div class="container">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container-fluid">
             <a class="navbar-brand" href="#home">
               <img src="https://i.postimg.cc/qvcxXr0S/Screenshot-2023-10-30-115113.png" width="10%" alt="" />
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav ms-auto">
-                <li class="nav-item active">
-                  <a class="nav-link" aria-current="page" href="#landing-page">
-                    <p class="nav-text" style="font-family: sans-serif -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">Home</p></a>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#landing-page">Home</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#about-page">
-                    <p class="nav-text">About</p></a>
+                  <a class="nav-link" href="#about-page">About</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#myskills-cards">
-                    <p class="nav-text">Skills&Education</p></a>
+                  <a class="nav-link" href="#myskills-cards">Skills & Education</a>
+                </li>
+                  
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#portfolio-page" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Portfolio
+                      </a>
+                    <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#portfolio-page">Software developer</a></li>
+                    <li><a class="dropdown-item" href="#myskills-cards">Front End Web Developer</a></li>
+                    <li><a class="dropdown-item" href="#myskills-cards">Data Science</a></li>
+                  </ul>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#portfolio-page">
-                    <p class="nav-text">Portfolio</p></a>
+                  <a class="nav-link" href="#testimonials-page">Testimonials</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#testimonials-page">
-                    <p class="nav-text">Testimonials</p></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#contact">
-                    <p class="nav-text">Contact</p></a>
+                  <a class="nav-link" href="#contact">Contact</a>
                 </li>
               </ul>
             </div>
           </div>
-        </nav>
+        </nav>              
 
     
 <!-- HOME Landing Section -->
+
+<main id="home">
 <section id="landing-page" class="landing-animation" class="bgimage">
   <div class="px-4 py-5 text-center">
     <div class="row">
@@ -73,7 +83,7 @@
         <p>To know more about MeSelf, <a href="https://www.linkedin.com/in/eric-zukisa-maza-2376b119b/">Let's connect</a>!</p>
       </h2>
       <div class="d-grid gap-2 d-flex justify-content-center">
-        <button type="button" class="btn btn-muted btn-lg px-4 gap-3">
+        <button type="button" class=" btn btn-muted btn-lg px-4 gap-3">
           <a class="button-link button-link-github" href="https://github.com/Maza455" target="_blank">
             Click Me!<i class="bi bi-github" style="font-size: 2em;"></i>
           </a>
@@ -618,7 +628,7 @@
        <footer id="footer">
         <div class="container-fluid">
             <div class="row">
-                <div class="logo">
+                <div class="foot">
                   ⭐⭐⭐ Zukisa Maza ⭐⭐⭐
                 </div>
                 <!-- Social Icons -->
@@ -639,16 +649,23 @@
         <div class="container">
             <p>&copy; 2020 copyright all right reserved</p>
         </div>
-    </section>
+    
     <!-- End CopyRight -->
 
     <!-- Start Lightbox -->
     <div class="lightbox hide">
         <span class="close-lightbox fa fa-close"></span>
     </div>
-            </div>
-        </section>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-    </body>
-    </html>
+  <!-- </section> -->
+</main>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+  </body>
+</html>
     
+
+
+
+
+
