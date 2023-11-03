@@ -653,6 +653,17 @@ nav{
     height: 30px;
 }
 
+.navbar-brand {
+  padding: 0;
+  margin-right: 50px;
+}
+
+.navbar-toggler {
+  margin-left: auto;
+  padding: 10px 15px; 
+}
+
+
 h1{
     border-color: gray;
     border-bottom: 3px;
@@ -816,12 +827,6 @@ footer {
     font-weight: bold;
     font-size: 44px;
 }
-  
-/* .foot {
-    font-size: 44px;
-    font-weight: bold;
-    text-align: center bold;
-} */
   
 .social {
     margin-top: 20px;
